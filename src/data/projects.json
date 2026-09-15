@@ -1,0 +1,107 @@
+[
+  {
+    "id": "ai-study-assistant",
+    "name": "AI Study & Research Assistant",
+    "category": "AI",
+    "status": "Exploring",
+    "featured": true,
+    "description": "An experimental AI workflow designed to summarize academic papers, extract key computer science concepts, and generate structured review notes using Python and LLM prompt chaining.",
+    "image": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?q=80&w=1000&auto=format&fit=crop",
+    "technologies": ["Python", "Generative AI", "Prompt Engineering", "AI Tools"],
+    "githubUrl": "https://github.com/Shreekrishnaghimire2",
+    "liveDemoUrl": "",
+    "caseStudy": {
+      "overview": "A personal exploration project to understand how Generative AI models can accelerate research and comprehension of complex CSIT curriculum topics.",
+      "problem": "Reviewing dense academic papers and textbook chapters was time-consuming, with standard summarizers missing technical nuances in algorithms and architecture.",
+      "idea": "Build a modular Python script that parses documents and passes them through guided prompt chains to yield structured notes, bullet summaries, and self-test quizzes.",
+      "approach": "Broke down document analysis into three steps: document preprocessing, context-aware prompt templates, and structured JSON output formatting.",
+      "technologies": "Python, OpenAI API / Gemini API, JSON parser, VS Code",
+      "features": [
+        "Structured concept breakdown into core definitions and code examples",
+        "Key question generator for active recall",
+        "Export clean Markdown summaries for note-taking apps"
+      ],
+      "result": "Created a lightweight CLI utility that reduced reading review cycles while deepening my understanding of prompt structures and LLM context limits.",
+      "whatILearned": "Learned how token limits impact output quality, how structured system prompts prevent hallucinations, and gained hands-on confidence with Python API integrations."
+    }
+  },
+  {
+    "id": "n8n-workflow-automation",
+    "name": "Automated Content & Alert Pipeline",
+    "category": "Automation",
+    "status": "Building",
+    "featured": true,
+    "description": "An end-to-end automation workflow built in n8n that monitors tech releases, aggregates research updates, and routes customized digests to personal notification channels.",
+    "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=1000&auto=format&fit=crop",
+    "technologies": ["n8n Automation", "Webhooks", "JSON", "Git"],
+    "githubUrl": "https://github.com/Shreekrishnaghimire2",
+    "liveDemoUrl": "",
+    "caseStudy": {
+      "overview": "An automation pipeline designed to eliminate repetitive manual tracking of emerging AI research papers, GitHub trending repositories, and tech updates.",
+      "problem": "Checking multiple platforms daily created distraction and information overload without a unified summary.",
+      "idea": "Leverage n8n's visual node ecosystem to fetch RSS feeds, filter relevant topics via custom logic, and dispatch daily digests.",
+      "approach": "Designed a scheduled cron trigger that calls multiple data sources, normalizes payload schemas with JavaScript node functions, and posts structured updates.",
+      "technologies": "n8n, Webhooks, REST APIs, JSON, Git",
+      "features": [
+        "Automated RSS and API polling on a scheduled timer",
+        "Conditional filtering based on keyword relevance (AI, Python, LLMs)",
+        "Instant error alerting with retry mechanisms"
+      ],
+      "result": "Reliably runs automated workflows daily, providing a clean stream of learning materials with zero manual effort.",
+      "whatILearned": "Deepened knowledge of HTTP request lifecycles, webhook security, JSON schema transformation, and error handling in automation architectures."
+    }
+  },
+  {
+    "id": "cs-data-structures-visualizer",
+    "name": "Core C & Python Algorithm Experiments",
+    "category": "Learning",
+    "status": "Learning",
+    "featured": false,
+    "description": "A collection of fundamental computer science implementations in C and Python, exploring memory management, sorting efficiency, and graph traversal.",
+    "image": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?q=80&w=1000&auto=format&fit=crop",
+    "technologies": ["C", "Python", "Algorithms", "Git"],
+    "githubUrl": "https://github.com/Shreekrishnaghimire2",
+    "liveDemoUrl": "",
+    "caseStudy": {
+      "overview": "Hands-on laboratory repository built as part of BSc CSIT coursework and self-directed programming drills.",
+      "problem": "Theoretical understanding of Big-O complexity and memory pointers needed deep practical coding reinforcement.",
+      "idea": "Write clean, well-documented implementations from scratch in C for low-level understanding and Python for high-level scripting comparisons.",
+      "approach": "Structured test benchmarks comparing execution time, recursive stack depths, and memory footprints between procedural C and Python.",
+      "technologies": "C (GCC), Python 3, Git, VS Code",
+      "features": [
+        "Dynamic linked lists, stacks, and binary search trees in C with manual pointer management",
+        "Graph traversal algorithms (BFS, DFS, Dijkstra) in Python",
+        "Benchmarking scripts measuring real execution times"
+      ],
+      "result": "Solidified foundational computer science principles that underpin modern machine learning frameworks and high-performance software.",
+      "whatILearned": "Mastered pointer arithmetic, memory allocation, asymptotic complexity analysis, and disciplined version control habits."
+    }
+  },
+  {
+    "id": "interactive-personal-portfolio",
+    "name": "Personal AI Portfolio & Local Project Manager",
+    "category": "Web",
+    "status": "Currently Focused",
+    "featured": true,
+    "description": "A luxury-styled personal portfolio with a client-side project manager supporting local data editing and JSON export for a $0 GitHub Pages architecture.",
+    "image": "https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?q=80&w=1000&auto=format&fit=crop",
+    "technologies": ["HTML", "JavaScript — Beginner", "Git", "GitHub Pages"],
+    "githubUrl": "https://github.com/Shreekrishnaghimire2",
+    "liveDemoUrl": "https://Shreekrishnaghimire2.github.io",
+    "caseStudy": {
+      "overview": "A production-grade, zero-cost personal platform presenting identity, learning roadmap, skills, and projects with luxury aesthetics.",
+      "problem": "Needed a flexible portfolio where projects could be updated locally and deployed to GitHub Pages without expensive CMS or database services.",
+      "idea": "Build a modular, component-driven client application with an integrated Portfolio Manager that exports clean JSON for git-based updates.",
+      "approach": "Used a dark-first luxury design system with subtle bronze accents, data-driven project cards, and a modal-based case study viewer.",
+      "technologies": "React, JavaScript, Tailwind, GitHub Actions, GitHub Pages",
+      "features": [
+        "Data-driven project catalogue with multi-category filtering",
+        "Local Project Manager for adding/editing/exporting project data",
+        "Deep case-study reader modal for all project dimensions",
+        "Fully responsive, accessible, with zero external paid APIs"
+      ],
+      "result": "Created a high-impact, authentic digital identity that accurately communicates my learning journey and technical curiosities.",
+      "whatILearned": "Learned state synchronization, client-side JSON serialization, responsive luxury UI principles, and automated CI/CD via GitHub Actions."
+    }
+  }
+]

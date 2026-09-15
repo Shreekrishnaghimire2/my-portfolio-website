@@ -1,0 +1,78 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    color-scheme: dark;
+    scroll-behavior: smooth;
+    font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+  }
+
+  body {
+    background-color: #070809;
+    color: #ECEFF2;
+    overflow-x: hidden;
+  }
+
+  /* Custom scrollbar */
+  ::-webkit-scrollbar {
+    width: 7px;
+    height: 7px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #070809;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #1F242C;
+    border-radius: 4px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #C5A880;
+  }
+}
+
+/* Glass & Card utility styles */
+.luxury-card {
+  background: linear-gradient(180deg, rgba(20, 24, 30, 0.7) 0%, rgba(12, 14, 18, 0.85) 100%);
+  border: 1px solid rgba(255, 255, 255, 0.07);
+  box-shadow: 0 20px 40px -15px rgba(0, 0, 0, 0.5), inset 0 1px 0 0 rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(12px);
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.luxury-card:hover {
+  border-color: rgba(197, 168, 128, 0.3);
+  box-shadow: 0 24px 50px -12px rgba(0, 0, 0, 0.7), 0 0 20px -5px rgba(197, 168, 128, 0.12), inset 0 1px 0 0 rgba(223, 189, 137, 0.2);
+}
+
+.luxury-card-gold {
+  background: linear-gradient(180deg, rgba(28, 23, 18, 0.7) 0%, rgba(15, 13, 10, 0.9) 100%);
+  border: 1px solid rgba(197, 168, 128, 0.25);
+  box-shadow: 0 20px 40px -15px rgba(0, 0, 0, 0.6), inset 0 1px 0 0 rgba(223, 189, 137, 0.15);
+}
+
+.gold-gradient-text {
+  background: linear-gradient(135deg, #FFF6E6 0%, #DFBD89 50%, #B88F47 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.silver-gradient-text {
+  background: linear-gradient(135deg, #FFFFFF 0%, #D1D5DB 60%, #9CA3AF 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gold-glow {
+  box-shadow: 0 0 35px -5px rgba(197, 168, 128, 0.2);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
